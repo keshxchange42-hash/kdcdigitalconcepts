@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../output.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simeon Akpan — Kesh | KESHPHEARL DIGITAL CONCEPTS ooo</title>
+
+  <!-- Tailwind CDN -->
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-yellow-400 via-pink-500 to-red-500 text-slate-100 antialiased">
+  <p class="font-bold text-4xl text-yellow-400">Hello</p>
+
+
+
+
+  <!-- NAV -->
+  <header class="fixed top-4 left-0 right-0 z-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <nav class="flex items-center justify-between bg-black/40 backdrop-blur rounded-full px-4 py-2 shadow-lg border border-white/10">
+        
+        <!-- Logo / Profile -->
+        <div class="flex items-center gap-3">
+          <div class="h-10 w-10 rounded-full overflow-hidden border-2 border-yellow-300">
+            <img src="../assets/my pics.jpg" alt="Simeon Akpan (Kesh)" class="object-cover h-full w-full">
+          </div>
+          <div>
+            <div class="text-sm font-semibold">Simeon Akpan</div>
+            <div class="text-xs text-slate-200">Kesh — CEO, KESHPHEARL DIGITAL CONCEPTS</div>
+          </div>
+        </div>
+
+        <!-- Desktop Menu -->
+        <ul class="hidden md:flex items-center gap-6 text-sm">
+          <li><a href="#about" class="hover:text-yellow-200">About</a></li>
+          <li><a href="#services" class="hover:text-yellow-200">Services</a></li>
+          <li><a href="#training" class="hover:text-yellow-200">Training</a></li>
+          <li><a href="#contact" class="hover:text-yellow-200">Contact</a></li>
+        </ul> 
+
+         <!-- Mobile Menu Button -->
+        <button id="menu-btn" class="md:hidden text-yellow-200 focus:outline-none">
+          ☰
+        </button>
+      </nav> 
+
+       <!-- Mobile Menu Dropdown  -->
+      <div id="mobile-menu" class="hidden md:hidden mt-2 bg-black/60 backdrop-blur rounded-xl shadow-lg border border-white/10">
+        <ul class="flex flex-col space-y-2 p-4 text-sm">
+          <li><a href="#about" class="block hover:text-yellow-200">About</a></li>
+          <li><a href="#services" class="block hover:text-yellow-200">Services</a></li>
+          <li><a href="#training" class="block hover:text-yellow-200">Training</a></li>
+          <li><a href="#contact" class="block hover:text-yellow-200">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="pt-28">
+
+    <!-- HERO -->
+    <section>
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-20">
+
+          <!-- Left: Intro -->
+          <div class="space-y-6">
+            <span class="px-3 py-1 rounded-full bg-yellow-400/30 text-yellow-100 text-sm font-semibold">
+              CEO · KESHPHEARL DIGITAL CONCEPTS
+            </span>
+
+            <h1 class="text-4xl sm:text-5xl font-extrabold leading-tight">
+              Simeon Akpan <span class="text-yellow-200">(Kesh)</span>
+            </h1>
+
+            <p class="text-lg text-slate-100 max-w-xl">
+              I’m a full-time Forex Trader, Web Developer, Graphic Designer and Exchange Vendor. I build high-converting
+              solutions and mentor ambitious people to grow skills in trading, web development, and digital design.
+            </p>
+
+            <div class="flex flex-wrap gap-3">
+              <a href="#contact" class="inline-flex items-center gap-2 bg-yellow-400 text-black px-5 py-3 rounded-lg shadow hover:bg-yellow-300">
+                Contact Me
+              </a>
+              <a href="#training" class="inline-flex items-center gap-2 border border-yellow-200/50 px-5 py-3 rounded-lg hover:bg-yellow-200/20">
+                Training & Mentorship
+              </a>
+            </div>
+
+            <div class="mt-4 flex flex-col gap-2 text-sm text-slate-200">
+              <div>📧 <a href="mailto:keshxchange42@gmail.com" class="text-yellow-100 hover:underline">keshxchange42@gmail.com</a></div>
+              <div>📍 Nigeria</div>
+            </div>
+          </div>
+
+          <!-- Right: Photo card -->
+          <div class="flex items-center justify-center">
+            <div class="relative w-72 h-96 rounded-2xl overflow-hidden shadow-2xl border border-white/20">
+              <img src="../assets/my pics.jpg" alt="Simeon Akpan (Kesh)" class="object-cover w-full h-full">
+              <div class="absolute bottom-4 left-4 bg-black/50 text-white px-3 py-1 rounded-lg text-sm">Simeon "Kesh" Akpan</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-16">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-2xl font-bold text-yellow-200">About</h2>
+        <p class="mt-3 text-slate-100 max-w-3xl">
+          I’m Simeon Akpan (Kesh). As CEO of KESHPHEARL DIGITAL CONCEPTS I combine technical skill and market experience
+          to build digital products and teach others. I specialize in Forex trading strategies, front-end development,
+          and brand-focused graphic design. I also run exchange services helping people buy and sell currencies safely.
+        </p>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="py-16">
+      <div class="max-w-6xl mx-auto px-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="p-6 bg-black/40 rounded-xl border border-white/10 hover:border-yellow-200/50 transition">
+          <h3 class="font-semibold text-yellow-100">Forex Trading</h3>
+          <p class="mt-2 text-sm text-slate-200">Live market strategies, risk management and mentorship.</p>
+        </div>
+        <div class="p-6 bg-black/40 rounded-xl border border-white/10 hover:border-yellow-200/50 transition">
+          <h3 class="font-semibold text-yellow-100">Web Development</h3>
+          <p class="mt-2 text-sm text-slate-200">Responsive websites, landing pages and modern web apps.</p>
+        </div>
+        <div class="p-6 bg-black/40 rounded-xl border border-white/10 hover:border-yellow-200/50 transition">
+          <h3 class="font-semibold text-yellow-100">Graphic Design</h3>
+          <p class="mt-2 text-sm text-slate-200">Branding, social assets, and creative visual storytelling.</p>
+        </div>
+        <div class="p-6 bg-black/40 rounded-xl border border-white/10 hover:border-yellow-200/50 transition">
+          <h3 class="font-semibold text-yellow-100">Exchange Vendor</h3>
+          <p class="mt-2 text-sm text-slate-200">Safe and secure currency exchange services.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAINING -->
+    <section id="training" class="py-16">
+      <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h2 class="text-2xl font-bold text-yellow-200">Training & Mentorship</h2>
+          <p class="mt-3 text-slate-100">
+            Learn forex trading, web development, graphic design or how to become an exchange vendor. I offer structured courses,
+            live sessions and practical assignments.
+          </p>
+          <ul class="mt-4 space-y-2 text-sm text-slate-200">
+            <li>• Practical trading strategies</li>
+            <li>• Real-world web projects</li>
+            <li>• Branding & UI/UX workflows</li>
+            <li>• Exchange vendor best practices</li>
+            <li>• Graphic Design using CorelDRAW</li>
+          </ul>
+        </div>
+
+        <div class="p-6 bg-black/40 rounded-xl border border-white/10">
+          <h4 class="font-semibold text-yellow-100">Course Package</h4>
+          <p class="mt-2 text-sm text-slate-200">1-on-1 coaching • Group sessions • Recorded lessons • Live Q&A</p>
+          <div class="mt-4">
+            <strong class="text-yellow-200">Starting from:</strong>
+            <div class="mt-2 text-2xl font-bold">₦100,000 / $100</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+
+    <!-- CONTACT -->
+<section id="contact" class="py-20">
+  <div class="max-w-2xl mx-auto bg-white/10 backdrop-blur rounded-2xl shadow-xl p-8">
+    <h2 class="text-3xl font-bold text-center mb-6 text-white">Contact Me</h2>
+    
+    <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+      
+      <!-- Web3Forms Access Key -->
+      <input type="hidden" name="access_key" value="eea93b78-396e-43ee-9a97-48417bcd087a">
+
+      <input type="text" name="name" placeholder="Your Name" required
+        class="w-full px-4 py-3 rounded-lg border border-gray-300 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-yellow-400">
+      
+      <input type="email" name="email" placeholder="Your Email" required
+        class="w-full px-4 py-3 rounded-lg border border-gray-300 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-yellow-400">
+
+
+        <input type="number" name="phone number" placeholder="Your WhatsApp number"required
+        class="w-full px-4 py-3 rounded-lg border border-gray-300 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-yellow-400">
+      
+     
+
+      <textarea name="message" rows="4" placeholder="Your Message" required
+  class="w-full px-4 py-3 rounded-lg border border-gray-300 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-yellow-400">
+</textarea>
+      
+      <!-- Redirect after success (optional) -->
+      <!-- <input type="hidden" name="redirect" value="thank-you.html"> -->
+
+
+      <button type="submit"
+        class="w-full bg-yellow-500 text-white font-semibold py-3 rounded-lg hover:bg-yellow-600 transition">
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
+
+    <!-- FOOTER -->
+    <footer class="bg-black/40 border-t border-white/10 text-slate-200">
+      <div class="max-w-6xl mx-auto px-6 py-8 text-center text-sm">
+        © <span id="year"></span> Simeon Akpan — Kesh · KESHPHEARL DIGITAL CONCEPTS
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
